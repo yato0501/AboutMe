@@ -1,0 +1,14 @@
+.tab-container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-items: center; */
+    justify-content: center;
+    
+}
+
+.tab-group-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
