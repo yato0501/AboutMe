@@ -14,3 +14,18 @@
     display: flex;
     justify-content: center;
 }
+
+.link-container {
+    display:flex;
+    justify-content:center;
+}
+
+.link-logo {
+    width: 100px;
+    height: auto;
+}
+
+.link-logo-frame {
+    cursor: pointer;
+    width:200px;
+}

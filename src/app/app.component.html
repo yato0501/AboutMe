@@ -1,6 +1,4 @@
-<div>
-  header
-</div>
+
 <div class="tab-container">
   <mat-tab-group>
     <mat-tab label="About Me">
@@ -10,4 +8,13 @@
       <app-resume class="tab-content"></app-resume>
     </mat-tab>
   </mat-tab-group>
+</div>
+<hr>
+<div class="link-container">
+  <div (click)=GotoLinkedIn() class="link-logo-frame">
+    <img src="/assets/LI-In-Bug.png" class="link-logo" />  
+  </div>
+  <div (click)=GotoGitHub() class="link-logo-frame">
+    <img src="/assets/GitHub_Logo.png" class="link-logo" />
+  </div>
 </div>
