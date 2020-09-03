@@ -13,12 +13,7 @@ export class AppComponent {
 
   }
 
-  public GotoLinkedIn() : void {
-    window.open('https://www.linkedin.com/in/tou-yang-8a88a059/', '_blank');
-  }
-
-  
-  public GotoGitHub() : void {
-    window.open('https://github.com/yato0501', '_blank');
+  public GotoLink(link: string) {
+    window.open(link, '_blank');
   }
 }
