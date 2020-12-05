@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ResumeComponent } from './resume/resume.component';
+import { OtherLinkComponent } from './other-link/other-link.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
-    ResumeComponent
+    ResumeComponent,
+    OtherLinkComponent
   ],
   imports: [
     BrowserModule,

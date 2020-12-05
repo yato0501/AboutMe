@@ -13,7 +13,5 @@ export class AppComponent {
 
   }
 
-  public GotoLink(link: string) {
-    window.open(link, '_blank');
-  }
+ 
 }
